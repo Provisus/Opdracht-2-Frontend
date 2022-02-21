@@ -3,3 +3,54 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*<!--    OPDRACHT 2.1    -->*/
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    justify-content: end;
+}
+
+/*<!--    OPDRACHT 2.2    -->*/
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*<!--    OPDRACHT 2.3    -->*/
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-basis: 250px;
+  }
+
+/*<!--    OPDRACHT 2.4    -->*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*<!--    OPDRACHT 2.4    -->*/
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.five article{
+    flex: 1 1 350px;
+}
+
